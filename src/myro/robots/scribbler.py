@@ -519,7 +519,7 @@ class Scribbler(Robot):
             lines = "".join(lines)
             if "IPRE" in lines:
                 position = lines.index("IPRE")
-                name = lines[position + 4 : position + 9 + 4]
+                name = lines[position + 4: position + 9 + 4]
                 name = name.replace("\x00", "")
                 name = name.strip()
                 s = port.replace("\\", "")

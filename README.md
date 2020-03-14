@@ -1,4 +1,6 @@
-# Python-Template
+# Scribbler-Barebones DEPRECATED
+
+This repository is no longer used in favor of [myro](https://github.com/jarulsamy/myro).
 
 ## Support
 
